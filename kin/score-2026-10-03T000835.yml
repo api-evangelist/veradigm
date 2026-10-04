@@ -1,31 +1,29 @@
-# Kin Score artifact — allscripts — 2026-08-24T064859
+# Kin Score artifact — veradigm — 2026-10-03T000835
 # The API Evangelist rating (https://github.com/api-evangelist/kin-score). Generated; do not edit.
 ---
 kin_score:
-  slug: allscripts
-  schema_version: 0.12.1
-  scored_at: '2026-08-24'
-  run_ts: 2026-08-24T064859
-  composite: 52.8
+  slug: veradigm
+  schema_version: 0.23.0
+  scored_at: '2026-10-03'
+  run_ts: 2026-10-03T000835
+  composite: 51.3
   band: developing
   facets:
-    discoverability: 81.5
-    contract_quality: 54.6
-    governance: 18.2
-    operational_transparency: 10.5
-    developer_ergonomics: 32.7
-    commercial_clarity: 73.7
+    discoverability: 78.6
+    contract_quality: 40.9
     contract_governance: 18.2
+    operational_transparency: 13.2
+    developer_ergonomics: 54.2
     access_clarity: 73.7
   agent_readiness:
-    score: 31.4
+    score: 21.8
     band: agent-aware
     dimensions:
       spec_presence: true
       agentic_access: false
       reversibility_documented: false
       mcp_server: false
-      auth_clarity: true
+      auth_clarity: bearer
       idempotency: false
       error_semantics: documented
       openapi_examples: false
@@ -36,11 +34,15 @@ kin_score:
       consent_identity: false
       agent_card: false
       dry_run_mode: false
+      delegated_identity: false
+      protected_resource_metadata: false
+      dynamic_client_registration: false
+      agentic_commerce: false
   regulatory:
     applies: true
     regime: Health
     regime_id: health
-    score: 60.0
+    score: 37.5
     matched_via: tags
   provenance:
     mcp: derived
