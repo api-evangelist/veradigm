@@ -50,3 +50,64 @@ plans:
       - Dedicated account manager
       - 3 App Expo product listings
       - Strategic collaboration
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Gold (Unity API Access)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Platinum (Unity API Access)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Platinum Plus (Unity API Access)
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Open
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Bronze
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Silver
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Gold
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Platinum
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Platinum Plus
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
