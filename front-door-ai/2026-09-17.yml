@@ -1,0 +1,32 @@
+# Front Door AI Index — veradigm — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: veradigm
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: veradigm.com
+  final_host: veradigm.com
+  ownership: own
+  owner: veradigm
+  shares_host_with:
+  - allscripts
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 10
+  band: 4
+  band_label: moderate
+  host_score: 10
+  density: 4.66
+  words: 2144
+  tiers:
+    agentic: 0
+    core: 10
+    model: 0
+  ambiguous: 7
+  top_terms:
+    AI: 5
+    artificial intelligence: 5
+    intelligence: 5
+    smart: 2
