@@ -1,0 +1,19 @@
+edges:
+- partner_name: datavant
+  partner: datavant
+  partner_match: domain
+  type: contract
+  channel: partner-built
+  relationship: processor-connection
+  direction: partner-built
+  evidence: https://github.com/api-evangelist/datavant/blob/main/openapi/datavant-prematch-api-openapi.yml
+  contract_reference:
+    repo: datavant
+    spec_file: datavant-prematch-api-openapi.yml
+    value: veradigm
+    property: components.schemas.RetrievalSources
+    detected_by: detect-payment-method-edges.py
+    detected: '2026-10-12'
+generated: '2026-10-12'
+method: searched
+checked: []
