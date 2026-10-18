@@ -36,6 +36,13 @@ created: '2026-06-13'
 modified: '2026-08-14'
 tags:
 - Healthcare IT
+- Electronic Health Records
+- FHIR
+- Clinical Data
+- Practice Management
+- HL7
+tags_raw:
+- Healthcare IT
 - EHR
 - FHIR
 - Clinical Data
@@ -53,6 +60,13 @@ apis:
   humanURL: https://developer.veradigm.com/Fhir/Introduction
   baseURL: https://open.platform.veradigm.com
   tags:
+  - FHIR
+  - Clinical Data
+  - Electronic Health Records
+  - HL7
+  - Patient Data
+  - Healthcare
+  tags_raw:
   - FHIR
   - Clinical Data
   - EHR
@@ -99,6 +113,14 @@ apis:
   humanURL: https://developer.allscripts.com/
   baseURL: https://remotecentral.allscripts.com
   tags:
+  - Electronic Health Records
+  - Clinical
+  - Scheduling
+  - Practice Management
+  - REST
+  - SOAP
+  - Healthcare IT
+  tags_raw:
   - EHR
   - Clinical
   - Scheduling
@@ -134,7 +156,7 @@ apis:
   tags:
   - FHIR
   - Acute Care
-  - EHR
+  - Electronic Health Records
   - Paragon
   - Hospitals
   - Healthcare
