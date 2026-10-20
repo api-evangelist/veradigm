@@ -36,9 +36,7 @@ edges:
     list_hosts:
     - open.platform.veradigm.com
     fhir_versions:
-    - 1.0.2
     - 4.0.1
-    - No Cap Stat
     signal_note: 'participation only: Lantern lists developers publishing the service-base-URL list a (g)(10) certification
       requires, but not the CHPL listing status, so no certified_products / lapsed are claimed; endpoint counts
       are the developer''s customers, context only, never counted'
@@ -46,11 +44,45 @@ edges:
     detected: '2026-10-18'
   detected_by: sweep-medtech.py
   first_seen: '2026-10-18'
+- partner_name: AWS Data Exchange
+  partner: amazon-data-exchange
+  partner_match: aggregator
+  type: marketplace
+  marketplace: amazon-data-exchange-marketplace
+  channel: distribution
+  relationship: distribution-channel
+  direction: third-party
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=9807936f-27d3-46cc-84eb-527c3a67f515
+  category: data product listing
+  contract_reference:
+    register: AWS Data Exchange (AWS Marketplace discovery search, FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE + seller-profile
+      sellerWebsiteUrl)
+    spec_file: null
+    role: data-marketplace-seller
+    registered_name: Veradigm
+    matched_domain: veradigm.com
+    matched_by: domain
+    listings: 5
+    sample_listings:
+    - Diabetes Collaborative Registry (DCR)
+    - Medical Claims (837-p)
+    - PINNACLE Registry
+    - Remittances (835-p)
+    - Veradigm Network EHR Sample Dataset
+    signal_note: 'participation: the provider lists data products on this marketplace; counts are context'
+    detected_by: sweep-data-marketplaces.py
+    detected: '2026-10-20'
+  detected_by: sweep-data-marketplaces.py
+  detected: '2026-10-20'
+  publisher_verified:
+  - Deployed on AWS
+  - Standard Data Agreement
 generated: '2026-10-12'
 method: searched
 checked:
 - https://lantern.healthit.gov/api/daily/download
 - https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices
+- https://aws.amazon.com/marketplace/search/results?FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE
 source:
 - https://lantern.healthit.gov/api/daily/download
 - https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices
