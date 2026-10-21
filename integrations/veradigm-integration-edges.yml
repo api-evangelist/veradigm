@@ -114,6 +114,31 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-certified-health-it.py
   first_seen: '2026-10-20'
+- partner_name: WEDI
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://members.wedi.org/website-organization-directory/FindStartsWith?term=%23%21
+  category: Health administrative data exchange (membership)
+  contract_reference:
+    register: WEDI member organizations (members.wedi.org directory)
+    spec_file: null
+    standard: WEDI (HIPAA administrative simplification)
+    role: member
+    registered_name: Veradigm
+    matched_domain: veradigm.com
+    matched_by: domain
+    market_fit: own apis.yml tags carry a health administration / health IT term
+    detected_by: sweep-payer-interop-caqh-core.py
+    detected: '2026-10-21'
+    website: http://www.veradigm.com/
+    identity_source: the website the member filed on the register (no lookup)
+    signal_note: membership = participation
+  detected_by: sweep-payer-interop-caqh-core.py
+  first_seen: '2026-10-21'
 generated: '2026-10-12'
 method: searched
 checked:
@@ -124,6 +149,15 @@ checked:
 - https://carequality.org/members
 - https://chpl.healthit.gov/rest
 - https://hitrustalliance.net/assurance-reports
+- https://confluence.hl7.org/display/DVP/Da+Vinci+Project+Members
+- https://data.cms.gov/provider-data/dataset/6jpm-sxkc
+- https://members.wedi.org/website-organization-directory/FindStartsWith?term=%23%21
+- https://www.caqh.org/core/certified-entities
+- https://www.caqh.org/core/core-certification
+- https://www.cms.gov/priorities/key-initiatives/burden-reduction/interoperability
+- https://www.dataspring.com/core/core-certified-organizations-pending-and-current
+- https://www.hl7.org/about/davinci/members.cfm
+- https://x12.org/membership/list-of-members
 source:
 - https://lantern.healthit.gov/api/daily/download
 - https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices

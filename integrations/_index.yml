@@ -119,3 +119,28 @@
     detected: '2026-10-20'
   status: not-a-workflow
   arazzo: null
+- slug: veradigm-wedi
+  label: WEDI
+  partner_name: WEDI
+  category: Health administrative data exchange (membership)
+  type: register
+  channel: standard-directory
+  evidence: https://members.wedi.org/website-organization-directory/FindStartsWith?term=%23%21
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: WEDI member organizations (members.wedi.org directory)
+    spec_file: null
+    standard: WEDI (HIPAA administrative simplification)
+    role: member
+    registered_name: Veradigm
+    matched_domain: veradigm.com
+    matched_by: domain
+    market_fit: own apis.yml tags carry a health administration / health IT term
+    detected_by: sweep-payer-interop-caqh-core.py
+    detected: '2026-10-21'
+    website: http://www.veradigm.com/
+    identity_source: the website the member filed on the register (no lookup)
+    signal_note: membership = participation
+  status: not-a-workflow
+  arazzo: null
