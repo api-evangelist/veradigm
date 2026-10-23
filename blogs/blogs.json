@@ -1,5 +1,5 @@
 {
-  "repo": "allscripts",
+  "repo": "veradigm",
   "feeds": [
     {
       "source": "https://veradigm.com/blog/",
@@ -14,5 +14,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "fetched": "2026-10-17T14:53:57Z"
 }
