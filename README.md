@@ -1,4 +1,4 @@
-# Allscripts (Veradigm)
+# Veradigm (Allscripts)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,48 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Allscripts, now operating as Veradigm (rebranded January 2023), is a healthcare IT company providing APIs for EHR data exchange, clinical workflows, patient portal, and practice management integrations. The Veradigm Developer Program (formerly Allscripts Developer Program) offers access to FHIR R4 and Unity APIs through a tiered subscription model.
+Allscripts, now operating as Veradigm, is a healthcare IT company providing REST and FHIR APIs for EHR data exchange, clinical workflows, patient portal, and practice management integrations. The Veradigm Developer Program (formerly Allscripts Developer Program) offers FHIR R4 APIs covering 28 clinical resources as well as a Unity API for clinical, scheduling, demographic, and practice management functions across Allscripts EHR products.
 
-## APIs
+**Areas:** Healthcare IT · Electronic Health Records · FHIR · Clinical Data · Practice Management · HL7
 
-### Veradigm FHIR R4 API
-RESTful access to 28 FHIR R4 clinical resources including Patient, Condition, Observation, MedicationRequest, Encounter, AllergyIntolerance, DiagnosticReport, and more. Uses OAuth 2.0 with SMART on FHIR Application Launch Framework 2.0. Supports both patient-facing (ending in /open) and provider-facing (ending in /fhir) endpoints.
+## Veradigm (Allscripts) on APIs.io
 
-- Documentation: https://developer.veradigm.com/Fhir/Introduction
-- Supported Resources: https://developer.veradigm.com/Fhir/Resources
-- Endpoint Directory: https://developer.veradigm.com/Fhir/EndpointDirectory
-- Sandbox: https://developer.veradigm.com/Fhir/FHIR_Sandboxes
+Everything profiled for Veradigm (Allscripts) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/veradigm/](https://apis.io/providers/veradigm/)** — or go straight to one of the APIs or properties below.
 
-### Veradigm Unity API
-Read-write access to clinical, scheduling, demographic, and practice management data across Allscripts EHR products (Touchworks, Professional EHR, acute care). Supports REST/JSON and SOAP/XML via an action-based dispatch model.
+### APIs (3)
 
-- Developer Portal: https://developer.allscripts.com/
-- Unity EULA: https://veradigm.com/img/legal/pm/Unity-API-EULA.pdf
+- [Veradigm FHIR R4 API](https://apis.io/apis/veradigm/veradigm-fhir-r4-api/) — The Veradigm FHIR R4 API provides RESTful access to clinical, demographic, and facility data using the HL7 FHIR R4 standard. It supports 28 FHIR resources…
+- [Veradigm Unity API](https://apis.io/apis/veradigm/veradigm-unity-api/) — The Veradigm Unity API exposes clinical, scheduling, demographic, and practice management functions across Allscripts EHR product lines including…
+- [Veradigm Paragon Open API](https://apis.io/apis/veradigm/veradigm-paragon-open-api/) — The Paragon Open API provides FHIR-compliant access to data from the Veradigm Paragon acute care EHR platform. It enables third-party applications to…
 
-### Veradigm Paragon Open API
-FHIR-compliant API for the Paragon acute care EHR platform, enabling third-party integrations for hospital and acute care settings.
+### Published properties
 
-- Documentation: https://developer.veradigm.com/Content/fhir/paragon/ParagonOpenAPI_Index.html
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Developer Program
+#### MCP servers (1)
 
-The Veradigm Connect developer program offers five integrator tiers:
+Model Context Protocol servers that expose the API to agents.
 
-| Tier | Use Case |
-|------|----------|
-| Open (Free) | Exploration and sandbox testing |
-| Bronze | Early development |
-| Silver | Prototyping |
-| Gold | Production clinical integrations |
-| Platinum | Scaling with dedicated support |
-| Platinum Plus | Strategic partnership |
+- [Moved to /providers/veradigm/](https://apis.io/servers/veradigm/allscripts-mcp-yml/)
 
-Annual billing provides a 10% discount. Sign up at https://developer.veradigm.com/Content/fhir/content/Developer_Signup/
+#### JSON-LD (1)
 
-## Links
+Linked-data contexts for the provider's vocabulary.
 
-- Developer Portal: https://developer.veradigm.com/
-- App Expo: https://expo.veradigm.com/apps
-- API Workshop: https://lp.veradigm.com/api-workshop-registration-april
-- Legal: https://veradigm.com/legal/
-- Contact: VeradigmConnect@veradigm.com
+- [Allscripts Context](https://apis.io/jsonld/veradigm/allscripts-context/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Allscripts Authentication](https://apis.io/security/veradigm/allscripts-authentication/)
+- [Allscripts Domain Security](https://apis.io/security/veradigm/allscripts-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Allscripts Scopes](https://apis.io/scopes/veradigm/allscripts-scopes/)
+
+#### Plans and pricing (2)
+
+Published plans, tiers and prices.
+
+- [Unity Api Plans](https://apis.io/plans/veradigm/unity-api-plans/)
+- [Veradigm Fhir Plans](https://apis.io/plans/veradigm/veradigm-fhir-plans/)
+
+#### Rate limits (2)
+
+Published request limits.
+
+- [Unity Api Rate Limits](https://apis.io/rate-limits/veradigm/unity-api-rate-limits/)
+- [Veradigm Fhir Rate Limits](https://apis.io/rate-limits/veradigm/veradigm-fhir-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Allscripts Finops](https://apis.io/finops/veradigm/allscripts-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://veradigm.com/)
+- [Blog](https://veradigm.com/blog/)
+- [Terms of service](https://veradigm.com/legal/terms-of-use/)
+- [Privacy policy](https://veradigm.com/legal/privacy-notice/)
+- [GitHub](https://github.com/veradigm)
+
+## API Evangelist rating
+
+**Kin Score 49.8** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 40.9 |
+| Contract governance | 18.2 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 54.2 |
+| Access clarity | 65.8 |
+
+**Agent readiness 21.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 37.5** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/veradigm/](https://apis.io/providers/veradigm/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Veradigm (Allscripts): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/veradigm/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
